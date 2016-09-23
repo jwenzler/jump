@@ -1,2 +1,7 @@
-export BackToTop from './BackToTop'
-export default from './Jump'
+import BackToTop from './BackToTop'
+import Jump from './Jump'
+
+export {
+  BackToTop,
+  Jump
+}
